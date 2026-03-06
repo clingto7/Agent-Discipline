@@ -1,0 +1,23 @@
+{
+"$schema": "https://opencode.ai/config.json",
+"provider": {
+    "tabcode": {
+        "models": {
+            "gpt-5.2": {
+                "name": "gpt-5.2"
+            },
+            "gpt-5.3-codex": {
+                "name": "gpt-5.3-codex"
+            }
+        },
+        "npm": "@ai-sdk/openai",
+        "options": {
+            "apiKey": "sk-user-e8e81630e25db7352733db9f",
+            "baseURL": "https://api.tabcode.cc/openai/v1"
+        }
+    }
+},
+"plugin": [
+    "oh-my-opencode@latest"
+]
+}

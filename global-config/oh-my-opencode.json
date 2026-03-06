@@ -1,0 +1,78 @@
+{
+    "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/dev/assets/oh-my-opencode.schema.json",
+    "disabled-agents": [
+        "oracle",
+        "multimodal-looker",
+        "artistry",
+        "visual-engineering",
+        ""
+    ],
+    "agents": {
+        "sisyphus": {
+            "model": "github-copilot/claude-opus-4.6",
+            "variant": "max"
+        },
+        "hephaestus": {
+            "model": "tabcode/gpt-5.3-codex",
+            "variant": "medium"
+        },
+        "oracle": {
+            "model": "tabcode/gpt-5.2",
+            "variant": "high"
+        },
+        "librarian": {
+            "model": "tabcode/gpt-5.3-codex"
+        },
+        "explore": {
+            "model": "tabcode/gpt-5.3-codex"
+        },
+        "multimodal-looker": {
+            "model": "tabcode/gpt-5.2"
+        },
+        "prometheus": {
+            "model": "tabcode/gpt-5.2",
+            "variant": "max"
+        },
+        "metis": {
+            "model": "github-copilot/claude-opus-4.6",
+            "variant": "max"
+        },
+        "momus": {
+            "model": "tabcode/gpt-5.2",
+            "variant": "medium"
+        },
+        "atlas": {
+            "model": "github-copilot/claude-sonnet-4.5"
+        }
+    },
+    "categories": {
+        "visual-engineering": {
+            "model": "github-copilot/claude-sonnet-4.5",
+            "variant": "high"
+        },
+        "ultrabrain": {
+            "model": "tabcode/gpt-5.3-codex",
+            "variant": "xhigh"
+        },
+        "deep": {
+            "model": "tabcode/gpt-5.3-codex",
+            "variant": "medium"
+        },
+        "artistry": {
+            "model": "github-copilot/gemini-3.1-pro-preview",
+            "variant": "high"
+        },
+        "quick": {
+            "model": "github-copilot/claude-haiku-4.5"
+        },
+        "unspecified-low": {
+            "model": "github-copilot/claude-sonnet-4.5"
+        },
+        "unspecified-high": {
+            "model": "github-copilot/claude-sonnet-4.5"
+        },
+        "writing": {
+            "model": "github-copilot/gemini-3-flash-preview"
+        }
+    }
+}
