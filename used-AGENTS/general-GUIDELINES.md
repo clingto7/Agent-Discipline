@@ -3,6 +3,7 @@
 - 优先遵循本文件
 - 使用UV管理python环境
   - 如,添加python依赖使用`uv add xxx`
+  - 若没有UV环境（不存在pyproject.toml文件），先uv init创建uv项目
 - 本机器配置为RTX4060显卡 13th Gen Intel(R) Core(TM) i9-13900H
 - 对跨模块变更（环境注册、算法接入、配置项）要保持“代码 + 配置 + 文档”同步。
 - 代码修改**不要进行commit**
